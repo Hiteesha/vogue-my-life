@@ -1,0 +1,70 @@
+h1 {
+    margin-top : 2px;
+    color : #957DAD
+}
+
+body{
+    background-color: #ffdfd3;
+}
+
+.Title {
+    padding : 20px 40px 20px;
+    background-color: #E0BBE4;
+    text-align: center;
+}
+.Title a {
+    margin : 10px;
+    color : #6c27b1
+   
+    
+}
+
+.Title a:visited {
+    color : #6c27b1
+    
+}
+
+.main{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border : double #D291BC;
+    border-width: 10px;
+    border-radius : 10px;
+    margin : 20px;
+    padding : 20px;
+    
+}
+
+.image img{
+    padding: 20px;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin: 20px;
+    
+}
+
+
+
+.image{
+    position: relative;
+}
+
+.image p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity : 0;
+}
+
+.image:hover p{
+opacity : 1;
+}
+
+.image:hover img{
+   opacity : 0.33;
+   
+}
+
